@@ -9,6 +9,7 @@ asttokens==2.4.1
 async-lru==2.0.4
 attrs==23.2.0
 Babel==2.14.0
+backcall==0.2.0
 beautifulsoup4==4.12.3
 bleach==6.1.0
 build==1.2.1
@@ -37,7 +38,7 @@ idna==3.7
 importlib_metadata==7.1.0
 importlib_resources==6.4.0
 ipykernel==6.29.4
-ipython==8.18.1
+ipython==8.1.1
 ipywidgets==8.1.2
 isoduration==20.11.0
 jedi==0.19.1
@@ -79,12 +80,13 @@ palmerpenguins==0.1.4
 pandas==2.2.2
 pandocfilters==1.5.1
 parso==0.8.4
+pickleshare==0.7.5
 pins==0.8.4
 pip-tools==7.4.1
 platformdirs==4.2.0
 plotly==5.20.0
 prometheus_client==0.20.0
-prompt-toolkit==3.0.36
+prompt-toolkit==3.0.40
 psutil==5.9.8
 pure-eval==0.2.2
 pycparser==2.22
@@ -98,7 +100,7 @@ python-dotenv==1.0.1
 python-json-logger==2.0.7
 python-multipart==0.0.9
 pytz==2024.1
-pywin32==306
+#pywin32==306
 pywinpty==2.0.13
 PyYAML==6.0.1
 pyzmq==25.1.2
