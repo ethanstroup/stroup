@@ -39,7 +39,7 @@
     "href": "model.html#save-to-board",
     "title": "Model",
     "section": "Save to Board",
-    "text": "Save to Board\n\n\nCode\nfrom pins import board_folder\nfrom vetiver import vetiver_pin_write\n\nmodel_board = board_folder(\"/data/model\", allow_pickle_read = True)\n#vetiver_pin_write(model_board, v)"
+    "text": "Save to Board\n\n\nCode\nfrom pins import board_folder\nfrom vetiver import vetiver_pin_write\n\n#model_board = board_folder(\"/data/model\", allow_pickle_read = True)\n#vetiver_pin_write(model_board, v)"
   },
   {
     "objectID": "model.html#turn-model-into-api",
@@ -137,6 +137,6 @@
     "href": "index.html",
     "title": "do4ds",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 2\n\n[1] 3"
   }
 ]
