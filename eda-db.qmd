@@ -42,6 +42,8 @@ df %>%
   labs(x = "Bill Length (mm)", y = "Body Mass (g)", title = "Penguin Size vs Bill Length by Species")
 ```
 
+## *Penguin Mass Spread by Species*
+
 ```{r warning=FALSE, message=FALSE}
 
 ggplot(df, aes(x = species, y = body_mass_g, fill = species)) + 

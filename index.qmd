@@ -2,8 +2,14 @@
 title: "Final Project"
 ---
 
-This is C2C Ethan Stroup's Final Project for Math 378
+# C2C Ethan Stroup's Final Project for Math 378
+
+```{r}
+knitr::include_graphics("./penguin.jpg")
+```
 
 Penguins Model uses a Python script to perform linear regression on the Penguins data set, using bill length to predict body mass.
 
 Penguins EDA uses an R script to present trends on penguin size vs mass based on penguin species.
+
+Penguins Tree Models uses an R script to fit various classifications trees to the data set, predicting the species based on all other variable
