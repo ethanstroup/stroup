@@ -7,7 +7,7 @@ format:
 
 ## *Penguin Size and Mass by Sex and Species*
 
-```{r}
+```{r message=FALSE}
 library(dplyr)
 library(ggplot2)
 library(dbplyr)
@@ -19,7 +19,7 @@ con <- DBI::dbConnect(
 df <- dplyr::tbl(con, "penguins")
 ```
 
-```{r}
+```{r message=FALSE, warning=FALSE}
 df %>%
   group_by(species, sex) %>%
   summarise(
@@ -32,13 +32,22 @@ df %>%
   knitr::kable()
 ```
 
-## *Penguin Size vs Mass by Species*
+## *Penguin Mass vs Bill Length by Species*
 
-```{r}
+```{r warning=FALSE, message=FALSE}
 df %>%
   ggplot(aes(x = bill_length_mm, y = body_mass_g, color = species)) +
   geom_point() + 
-  geom_smooth(method = "lm")
+  geom_smooth(method = "lm")+
+  labs(x = "Bill Length (mm)", y = "Body Mass (g)", title = "Penguin Size vs Bill Length by Species")
+```
+
+```{r warning=FALSE, message=FALSE}
+
+ggplot(df, aes(x = species, y = body_mass_g, fill = species)) + 
+  geom_boxplot() +
+  scale_fill_manual(values=c("Adelie"="red", "Chinstrap"="green", "Gentoo"="blue")) +
+  labs(x = "Species", y = "Body Mass (g)", title = "Box Plot of Penguin Body Mass by Species")
 ```
 
 ```{r}

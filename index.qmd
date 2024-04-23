@@ -1,11 +1,9 @@
 ---
-title: "do4ds"
+title: "Final Project"
 ---
 
-This is a Quarto website.
+This is C2C Ethan Stroup's Final Project for Math 378
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Penguins Model uses a Python script to perform linear regression on the Penguins data set, using bill length to predict body mass.
 
-```{r}
-1 + 2
-```
+Penguins EDA uses an R script to present trends on penguin size vs mass based on penguin species.

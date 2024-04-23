@@ -2,8 +2,8 @@
 title: "About"
 ---
 
-About this site
+# Documentation
 
-```{r}
-1 + 1
-```
+Shoutout to Dr. Hauschild for all her help on this project.
+
+C2C Curtis and I worked extensively on this project together.
