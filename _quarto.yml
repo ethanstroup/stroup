@@ -7,7 +7,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - model-db.qmd
+      - model.qmd
       - eda-db.qmd
       - classification.qmd
       - about.qmd
